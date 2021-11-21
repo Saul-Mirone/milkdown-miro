@@ -20,9 +20,11 @@ jobs:
                   node-version: 15.x
 
             - name: install dependencies
-              run:pnpm install
+              run: npm install
+
             - name: build
               run: npm run build
+
             - name: deploy to pages
               uses: peaceiris/actions-gh-pages@v3
               with:
