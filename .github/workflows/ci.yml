@@ -1,0 +1,30 @@
+name: ci
+
+on:
+    push:
+        branches: main
+
+env:
+    CI: true
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: checkout code repository
+              uses: actions/checkout@v2
+              with:
+                  fetch-depth: 0
+            - name: setup node.js
+              uses: actions/setup-node@v2
+              with:
+                  node-version: 15.x
+
+            - name: install dependencies
+              run:pnpm install
+            - name: build
+              run: npm run build
+            - name: deploy to pages
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: dist
