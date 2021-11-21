@@ -4,6 +4,7 @@ const mkcert = require("vite-plugin-mkcert").default;
 
 module.exports = defineConfig({
   build: {
+    base: '/milkdown-miro/',
     rollupOptions: {
       input: {
         index: path.resolve(__dirname, "index.html"),
