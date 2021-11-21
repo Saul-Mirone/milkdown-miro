@@ -1,4 +1,6 @@
-# Miro starter app
+# Milkdown x Miro
+
+Integration of Milkdown for Miro Card
 
 ## How to start:
 
