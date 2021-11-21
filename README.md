@@ -1,6 +1,8 @@
 # Milkdown x Miro
 
-Integration of Milkdown for Miro Card
+Integration of Milkdown for Miro Card.
+
+> Installation URL: https://miro.com/oauth/authorize/?response_type=code&client_id=3074457367994400224&redirect_uri=%2Fconfirm-app-install%2F
 
 ## How to start:
 
