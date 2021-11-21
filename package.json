@@ -1,0 +1,25 @@
+{
+  "name": "miro-starter-app",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "prettier": {},
+  "devDependencies": {
+    "@milkdown/core": "^5.1.0",
+    "@milkdown/plugin-emoji": "^5.1.1",
+    "@milkdown/plugin-history": "^5.1.1",
+    "@milkdown/plugin-indent": "^5.1.1",
+    "@milkdown/plugin-listener": "^5.1.1",
+    "@milkdown/plugin-prism": "^5.1.1",
+    "@milkdown/plugin-slash": "^5.1.1",
+    "@milkdown/plugin-tooltip": "^5.1.1",
+    "@milkdown/preset-commonmark": "^5.1.0",
+    "@milkdown/preset-gfm": "^5.1.1",
+    "@milkdown/theme-nord": "^5.1.0",
+    "vite": "2.5.0",
+    "vite-plugin-mkcert": "1.5.1"
+  }
+}
