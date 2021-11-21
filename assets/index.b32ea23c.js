@@ -1,0 +1,1 @@
+import"./style.103d5196.js";const{board:n}=window.miro;!async function(){await n.ui.on("icon:click",(async()=>{const t=await n.getSelection();if(0===t.length)return;if(t.length>1)return;const[i]=t;"card"===i.type&&await n.ui.openModal({pageUrl:"app.html",fullscreen:!0})}))}();
